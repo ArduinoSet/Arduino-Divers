@@ -1,19 +1,10 @@
-// ChangeLog 
-// 1.0 - 1.1   modified to solve transmition between ch341 and ch341
-// 1.1 - 1.2   Support high Linux kernel
-Instructions
+В Linux драйвер CH340 обычно уже встроен в систему. 
+Если драйвер не установлен, можно установить его следующими способами:
 
-Note: 1.Please run followed executable programs as root privilege
-      2.Current Driver support versions of linux kernel range from 2.6.25 to 3.13.x
-      3.Current Driver support 32bits and 64bits linux systems
-
-Usage:
-	(load or unload linux driver of CH34x)
-	//compile 
-	#make
-	//load ch34x chips driver
-	#make load
-	//unload ch34x chips driver
-	#make unload
-			
-
+Через центр программного обеспечения Ubuntu: 
+Откройте центр программного обеспечения Ubuntu. 
+Найдите пакет «CH340 Driver». 
+Нажмите на кнопку «Установить». 
+Через командную строку: 
+Откройте окно терминала. 
+Введите команду: sudo apt-get install ch340-uart
